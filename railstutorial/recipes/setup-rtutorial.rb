@@ -10,6 +10,7 @@ git "/data/railstutorial" do
   repo rtutorial["app_source"]["url"]
   revision rtutorial["app_source"]["revision"]
   action :sync
+  user "root"
 end
 
 package 'nginx' do
