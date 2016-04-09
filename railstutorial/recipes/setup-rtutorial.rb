@@ -7,12 +7,12 @@ execute "apt-get update and upgrade" do
 end
 
 directory '/data/railstutorial' do
-  recursive :true
+  recursive true
   action :delete
 end
 
 directory '/data/railstutorial' do
-  recursive :true
+  recursive true
   action :create
 end
 
